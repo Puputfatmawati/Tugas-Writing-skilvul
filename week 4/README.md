@@ -165,7 +165,7 @@ Perintah merge digunakan untuk menggabungkan sebuah branch ke branch aktif. Guna
 - Langkah - langkah :
     - Cari buttom "plus" / "+"
     - Lalu pilih "new organization" </br>
-    ![collab](/image/collab.jpeg)</br>
+    ![collab](collab.jpeg)</br>
     - Pilih "Create a free organization"
     - Isi data sampai selesai
     - Pilih "Create new repository"
@@ -184,11 +184,11 @@ Perintah merge digunakan untuk menggabungkan sebuah branch ke branch aktif. Guna
 
 ## Definisi
 **Responsive Web Design (RWD)** adalah bertujuan membuat desain website dapat diakses dalam berbagai jenis device. Seperti contohnya pada Laptop/PC, smartphone dan tablet.
-![laptop](/image/laptop.png)
+![laptop](laptop.png)
 Tampilan pada Laptop/PC
-![tablet](/image/tablet.png)
+![tablet](tablet.png)
 Tampilan pada Tablet
-![hp](/image/mobile.png)
+![hp](mobile.png)
 Tampilan pada Smartphone
 
 ## Setting Up Chrome Dev Tools
@@ -202,13 +202,13 @@ Akses Chrome Dev Tools dengan cara :
 `Ctrl`+`Shift`+`j`
   
 - Tools Responsive Web Design
-![repon](/image/responsive.jpeg)
+![repon](responsive.jpeg)
 Tampilan responsive web.
 Dengan cara klik pada icon yang mengilustrasikan phone/tablet.
 
 ## Add Viewport in HTML
 
-![html](/image/html.png)
+![html](html.png)
 
 ## Use Max-width Element
 
@@ -223,14 +223,14 @@ Media query digunakan untuk membuat beberapa styles tergantung pada jenis device
 
 2 cara dalam menggunakan media query :
 1. Membuat file css berbeda untuk masing-masing device.
-![css](/image/css.png)
+![css](css.png)
 Terdapat 2 jenis file css didalamnya yaitu `main.css` untuk device laptop dan `mobile.css` untuk device mobile.
 
 2. Menggabungkan 1 file css untuk setting styling berbagai device
 - index.html
-![index](/image/index.png)
+![index](index.png)
 - style01.css (main.css)
-![css](/image/css1.png)
+![css](css1.png)
 
 ## Breakpoint
 **Breakpoint** yaitu perubahan yang terjadi pada tampilan saat berganti device atau ukuran width.
@@ -268,12 +268,12 @@ Dalam Bootstrap terdapat :
 
 a) **Layout**
 - **Breakpoints**
-![bp](/image/breakpoints.png)
+![bp](breakpoints.png)
 Setiap breakpoint dipilih untuk menampung container dengan lebar kelipatan 12 dengan nyaman. Breakpoint juga mewakili subset ukuran perangkat umum dan dimensi area pandang—tidak secara khusus menargetkan setiap kasus penggunaan atau perangkat. Sebaliknya, rentang memberikan fondasi yang kuat dan konsisten untuk dibangun di hampir semua perangkat.
 - **Container**
 
     Container adalah fondasi dasar dari blok layout. Container berfungsi untuk membungkus blok di dalamnya, sehingga terlihat rapi terhadap ukuran layar. Container juga memiliki breakpoint.
-    ![con](/image/container.png)
+    ![con](container.png)
     Ukuran kontainer akan 100% pada breakpoint tertentu. Misalnya, jika kita menggunakan class `container-md` maka lebar kontainer akan 100% pada layar Extra Small dan Small.
     Terdapat 2 jenis containers :
      - **Class Container** : Class container`.container` memiliki sifat yang responsive dan fixed-width, yang berarti lebarnya akan berubah pada setiap breakpoint.
@@ -281,7 +281,7 @@ Setiap breakpoint dipilih untuk menampung container dengan lebar kelipatan 12 de
 - **Grid**
 
     Sistem Grid adalah sistem yang digunakan Bootstrap untuk mengatur tata letak (layout). Sistem ini terdiri dari 12 kolom dan 6 breakpoint.
-    ![con](/image/grid.png)
+    ![con](grid.png)
     Satu kolom penuh panjangnya adalah 12. Jika kolom dibagi dua maka panjangnya akan menjadi 6.
     
     Sistem grid Bootstrap dapat beradaptasi di keenam breakpoint default, dan setiap breakpoint yang Anda sesuaikan. Enam tingkatan grid default adalah sebagai berikut:
@@ -293,7 +293,7 @@ Setiap breakpoint dipilih untuk menampung container dengan lebar kelipatan 12 de
     - Extra extra large (xxl)
 
     Berikut adalah bagaimana grid berubah di breakpoints ini:
-    ![con](/image/grid2.png)
+    ![con](grid2.png)
 - **Columns**
 
     Memodifikasi kolom dengan beberapa opsi untuk penyelarasan, pengurutan, dan penyeimbangan berkat sistem kisi flexbox kami. Plus, lihat cara menggunakan kelas kolom untuk mengelola lebar elemen non-kisi.
@@ -302,7 +302,7 @@ Setiap breakpoint dipilih untuk menampung container dengan lebar kelipatan 12 de
             - Vertical alignment
             - Horizontal alignment
     - **Columns Break** : Memecah kolom ke baris baru di flexbox memerlukan sedikit peretasan: tambahkan elemen dengan lebar: 100% di mana pun Anda ingin membungkus kolom ke baris baru. 
-    ![con](/image/kolom.png)
+    ![con](kolom.png)
     
     dll.
 
@@ -327,13 +327,13 @@ Berikan pesan umpan balik kontekstual untuk tindakan pengguna biasa dengan beber
 Kemudian pada minggu ini terdapat 3 kali tugas:
 
 1. Membuat personal website menggunakan `HTML`,`CSS` dan `JS`
-![tpa](/image/Tpa1.jpeg)
+![tpa](Tpa1.jpeg)
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
 2. Membuat BMI Kalkulator dengan menggunakan `HTML`,`CSS` dan `JS`
-![tpa](/image/Tpa2.jpeg)
+![tpa](Tpa2.jpeg)
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
 3. Membuat Movie App dengan menggunakan TMDB API dan Fetch
-![tpa](/image/tpa3.jpeg)
+![tpa](tpa3.jpeg)
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
 
 

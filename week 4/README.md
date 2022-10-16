@@ -165,7 +165,7 @@ Perintah merge digunakan untuk menggabungkan sebuah branch ke branch aktif. Guna
 - Langkah - langkah :
     - Cari buttom "plus" / "+"
     - Lalu pilih "new organization" </br>
-    ![collab](collab.jpeg)</br>
+    ![collab](collab1.jpeg)</br>
     - Pilih "Create a free organization"
     - Isi data sampai selesai
     - Pilih "Create new repository"
@@ -183,12 +183,12 @@ Perintah merge digunakan untuk menggabungkan sebuah branch ke branch aktif. Guna
 # **Responsive Web Design**
 
 ## Definisi
-**Responsive Web Design (RWD)** adalah bertujuan membuat desain website dapat diakses dalam berbagai jenis device. Seperti contohnya pada Laptop/PC, smartphone dan tablet.
-![laptop](laptop.png)
-Tampilan pada Laptop/PC
-![tablet](tablet.png)
-Tampilan pada Tablet
-![hp](mobile.png)
+**Responsive Web Design (RWD)** adalah bertujuan membuat desain website dapat diakses dalam berbagai jenis device. Seperti contohnya pada Laptop/PC, smartphone dan tablet.</br>
+![laptop](laptop.png)</br>
+Tampilan pada Laptop/PC</br>
+![tablet](tablet.png)</br>
+Tampilan pada Tablet</br>
+![hp](mobile.png)</br>
 Tampilan pada Smartphone
 
 ## Setting Up Chrome Dev Tools
@@ -222,15 +222,15 @@ Media query digunakan untuk membuat beberapa styles tergantung pada jenis device
 2. max-width
 
 2 cara dalam menggunakan media query :
-1. Membuat file css berbeda untuk masing-masing device.
-![css](css.png)
+1. Membuat file css berbeda untuk masing-masing device.</br>
+![css](css.png)</br>
 Terdapat 2 jenis file css didalamnya yaitu `main.css` untuk device laptop dan `mobile.css` untuk device mobile.
 
 2. Menggabungkan 1 file css untuk setting styling berbagai device
-- index.html
-![index](index.png)
-- style01.css (main.css)
-![css](css1.png)
+- index.html</br>
+![index](index.png)</br>
+- style01.css (main.css)</br>
+![css](css1.png)</br>
 
 ## Breakpoint
 **Breakpoint** yaitu perubahan yang terjadi pada tampilan saat berganti device atau ukuran width.
@@ -268,12 +268,12 @@ Dalam Bootstrap terdapat :
 
 a) **Layout**
 - **Breakpoints**
-![bp](breakpoints.png)
+![bp](breakpoints.png)</br>
 Setiap breakpoint dipilih untuk menampung container dengan lebar kelipatan 12 dengan nyaman. Breakpoint juga mewakili subset ukuran perangkat umum dan dimensi area pandang—tidak secara khusus menargetkan setiap kasus penggunaan atau perangkat. Sebaliknya, rentang memberikan fondasi yang kuat dan konsisten untuk dibangun di hampir semua perangkat.
 - **Container**
 
-    Container adalah fondasi dasar dari blok layout. Container berfungsi untuk membungkus blok di dalamnya, sehingga terlihat rapi terhadap ukuran layar. Container juga memiliki breakpoint.
-    ![con](container.png)
+    Container adalah fondasi dasar dari blok layout. Container berfungsi untuk membungkus blok di dalamnya, sehingga terlihat rapi terhadap ukuran layar. Container juga memiliki breakpoint.</br>
+    ![con](container.png)</br>
     Ukuran kontainer akan 100% pada breakpoint tertentu. Misalnya, jika kita menggunakan class `container-md` maka lebar kontainer akan 100% pada layar Extra Small dan Small.
     Terdapat 2 jenis containers :
      - **Class Container** : Class container`.container` memiliki sifat yang responsive dan fixed-width, yang berarti lebarnya akan berubah pada setiap breakpoint.
@@ -326,14 +326,14 @@ Berikan pesan umpan balik kontekstual untuk tindakan pengguna biasa dengan beber
 
 Kemudian pada minggu ini terdapat 3 kali tugas:
 
-1. Membuat personal website menggunakan `HTML`,`CSS` dan `JS`
-![tpa](Tpa1.jpeg)
+1. Membuat personal website menggunakan `HTML`,`CSS` dan `JS`</br>
+![tpa](Tpa1.jpeg)</br>
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
-2. Membuat BMI Kalkulator dengan menggunakan `HTML`,`CSS` dan `JS`
-![tpa](Tpa2.jpeg)
+2. Membuat BMI Kalkulator dengan menggunakan `HTML`,`CSS` dan `JS`</br>
+![tpa](Tpa2.jpeg)</br>
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
-3. Membuat Movie App dengan menggunakan TMDB API dan Fetch
-![tpa](tpa3.jpeg)
+3. Membuat Movie App dengan menggunakan TMDB API dan Fetch</br>
+![tpa](tpa3.jpeg)</br>
 Setelah membuat website kami mengumpulkannya denga cara upload pada github dan netlify.
 
 

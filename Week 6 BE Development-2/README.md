@@ -3,7 +3,8 @@
 # Backend Development
 Secara sederhana, back-end adalah bagian belakang “layar” dari sebuah website atau aplikasi. Secara teknologi, Back-end adalah segala macam teknologi yang ada di sisi server dari sebuah website atau aplikasi. Ada banyak teknologi Back-end yang berhubungan dengan pengembangan aplikasi web. Contoh di slide selanjutnya.
 ### Bahasa Pemrograman
-Back-end developers dapat memilih dari sekian banyak bahasa pemrograman dan framework, tetapi itu semua tergantung pada jenis aplikasi apa yang dibuat.
+Back-end developers dapat memilih dari sekian banyak bahasa pemrograman dan framework, tetapi itu semua tergantung pada jenis aplikasi apa yang dibuat.</br>
+
 ![bahasa-pemrog](bahasa-pemrog.jpeg)
 
 ### Servers: The Machinery
@@ -167,7 +168,8 @@ Digunakan ketika kedua tabel yang berelasi dapat memiliki beberapa baris di tabe
 
 3. One to one
    - Sangat jarang digunakan
-   - Diimplementasikan dengan cara yang sama seperti One to Many tetapi dengan kondisi tambahan (foreign key merupakan primary key)
+   - Diimplementasikan dengan cara yang sama seperti One to Many tetapi dengan kondisi tambahan (foreign key merupakan primary key)</br>
+
 ![one1](oneto1.jpeg)
 
 ### Database Normalization
@@ -193,7 +195,7 @@ Merupakan teknik analisis data yang mengorganisasikan atribut-atribut data denga
        - Urutan penyimpanan data tidak menjadi masalah
     3. Contoh Bentuk Unormalize (Penulis punya multiple value)</br>
     ![unormal](normali.jpeg)
-    4. Contoh Bentuk 1NF
+    4. Contoh Bentuk 1NF </br>
     ![inf](inf.jpeg)
 
 - Second Normal Form (2NF) </br>
@@ -201,7 +203,7 @@ Merupakan teknik analisis data yang mengorganisasikan atribut-atribut data denga
     2. Menghapus beberapa subset data yang ada pada tabel dan menempatkan mereka pada tabel terpisah.
     3. Contoh Bentuk Unormalize (Subset info penerbit pada 1 table</br>
     ![unormalize](unor.jpeg)
-    4. Contoh Bentuk 2NF :
+    4. Contoh Bentuk 2NF :</br>
     ![2nf](2nf.jpeg)
 
 - Third Normal Form (3NF) </br>
@@ -219,7 +221,7 @@ Masih ada banyak bentuk database normalisasi, diantaranya :
     1. Kumpulan dari satu atau lebih dari satu key yang dapat digunakan untuk mengidentifikasi record secara unik dalam sebuah tabel.
     2. Super Key adalah superset dari Candidate Key.
     3. Contoh :</br>
-    ![superkey](superkey.jpeg)
+    ![superkey](superkey.jpeg)</br>
     Pada table ini yang menjadi super key adalah : 
         - ISBN dan Judul
         - ISBN dan Penulis
@@ -233,22 +235,22 @@ Masih ada banyak bentuk database normalisasi, diantaranya :
 - Setiap Candidate Key bisa digunakan sebagai Primary Key.
 - Candidate Key adalah super key yang tidak mempunyai value yang berulang
 - Contoh :</br>
- ![candidate](candidate.jpeg)
+ ![candidate](candidate.jpeg)</br>
  Pada table ini yang menjadi candidate key adalah ISBN karena tidak ada value yang berulang.
 
 ### Primary Key
 - kumpulan satu atau lebih fields/columns dari sebuah tabel yang secara unik mengidentifikasi sebuah record dalam tabel database.
 - Valuenya tidak boleh berupa null ataupun duplicate value.
 - Hanya boleh salah satu Candidate Key yang bisa menjadi Primary Key.
-- Contoh :
-![primary](primarykey.jpeg)
+- Contoh :</br>
+![primary](primarykey.jpeg)</br>
 Pada table diatas bisa dipilih antara id dan ISBN bisa menjadi primary key
 
 ### Alternate Key
 - key yang bisa digunakan menjadi primary key.
 - Pada dasarnya, Key ini merupakan candidate key yang tidak dijadikan  primary key.
-- Contoh : 
-![alter](alter.jpeg)
+- Contoh : </br>
+![alter](alter.jpeg)</br>
 Jika kita sudah menentukan id sebagai primary key, maka ISBN menjadi alternate key
 
 ### Unique Key

@@ -313,8 +313,8 @@ HAVING ditambahkan ke SQL karena kata kunci WHERE tidak dapat digunakan dengan a
 ## Authentication
  istilah ini sering ditemukan ketika hendak mencoba login atau masuk pada sebuah sistem atau aplikasi. Autentikasi adalah sebuah metode untuk mengkonfirmasi pengguna pada sebuah sistem.
 ## Authorization
- Authorization atau otorisasi adalah proses lanjutan setelah proses authentication. Dalam proses authorization, akun kembali diperiksa apakah memiliki izin untuk mengakses resource yang dimaksud.
-![author](authorization.jpeg)
+ Authorization atau otorisasi adalah proses lanjutan setelah proses authentication. Dalam proses authorization, akun kembali diperiksa apakah memiliki izin untuk mengakses resource yang dimaksud. </br>
+![author](authorization.jpeg)</br>
 gambar di atas merupakan Hubungan antara client, server authentication dan authorization sistem
 
 
@@ -325,13 +325,13 @@ gambar di atas merupakan Hubungan antara client, server authentication dan autho
  Tanggapan terhadap perintah autentikasi dapat dikategorikan ke dalam:
 - Knowledge-Based: “Something You Know”
 - Possession-Based: “Something You Have”
-- Inherence-Based: “Something You Are”
-![encryption](encryption.jpeg)
+- Inherence-Based: “Something You Are”</br>
+![encryption](encryption.jpeg)</br>
 
 ## Session VS Cookie VS LocalStorage
 ### Web session
-mengacu pada serangkaian interaksi pengguna selama jangka waktu tertentu. Data sesi disimpan di sisi server dan dikaitkan dengan ID sesi.
-![web](websession.jpeg)
+mengacu pada serangkaian interaksi pengguna selama jangka waktu tertentu. Data sesi disimpan di sisi server dan dikaitkan dengan ID sesi.</br>
+![web](websession.jpeg)</br>
 
 ### Session & Cookie
 - Cookie </br>
@@ -345,7 +345,9 @@ Set-Cookie: Key=Value; expires=Monday, 01-Des-2022 23:59:59 GMT
 Atribut HttpOnly untuk header Set-Cookie memastikan bahwa data cookie tidak dapat diakses oleh skrip yang menjalankan sisi klien. Ini membantu mencegah serangan Cross-Site Scripting (XSS) yang mencoba mencuri cookie sesi dan mengambil alih sesi korban, yang sangat umum.
 ```sql
 Set-Cookie: Key=Value; expires=Monday, 01-Des-2022 23:59:59 GMT: HTTPOnly
-```
+``` 
+</br>
+
 ![sesi](sesi.jpeg)
 
 ### Token Based Authentication using JWT
@@ -388,7 +390,8 @@ HMACSHA256(
   base64UrlEncode(payload),
   secret)
 ```
-Token Based Authentication
+Token Based Authentication</br>
+
 ![token](token.jpeg )
 
 ### Password Authentication (Bcrypt)
